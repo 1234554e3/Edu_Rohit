@@ -1,0 +1,13 @@
+//rohitbedse_ code
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("Enter the value of a : ");
+	scanf("%d",&a);
+	printf("Before Increment : %d",a);
+	a++;
+    printf("\nAfter Increment : %d",a);;
+    return 0;
+}

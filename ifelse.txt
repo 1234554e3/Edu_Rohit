@@ -1,0 +1,19 @@
+//rohitbedse_ code
+
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Emter the value of n: ");
+	scanf("%d",&n);
+	if(n == 1){
+		printf("Sunday");
+	}
+	if(n<3 && n>1){
+		printf("Monday");
+	}
+	if(n>6 && n<=7){
+		printf("Saturday");
+	}
+    return 0;
+}
